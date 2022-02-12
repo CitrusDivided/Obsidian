@@ -1,33 +1,54 @@
 html {
     height: 100%;
 }
+.main-head {
+    grid-area: header;
+  }
+  .content {
+    grid-area: content;
+  }
+  .main-nav {
+    grid-area: nav;
+  }
+  .side {
+    grid-area: sidebar;
+  }
+  .ad {
+    grid-area: ad;
+  }
+  .main-footer {
+    grid-area: footer;
+  }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 2fr, 2fr;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 300px auto 300px;
+    align-content: start;
     justify-content: center;
     align-items: stretch;
+    grid-auto-columns: max-content;
     grid-auto-rows: max-content;
-    column-gap: 3.3rem;
+    column-gap: 1.3rem;
     row-gap: 1.3rem;
+    border: white;
 }
 #logoPH{
-    display: grid;
+    position: fixed;
     background: black;
     width: 140px;
     height: 150px;
-    grid-column: 1;
-    grid-row: 1;
     border: 1px solid red;
 }
+/*
 h1 {
-    display: grid;
-    grid-column: 1;
-    grid-row: 1;
+    position:fixed;
+    margin-top: 0%;
+    margin-left: 12%;
     padding: 1.2rem;
     padding-left: 2rem;
     background: rgb(31, 12, 12);
-}
+    border: 1px solid red;
+}*/
 body {
     height: 100%;
     margin: 0;
@@ -39,10 +60,18 @@ body {
 
 }
 #subMostHeadline{
-    display: grid;
-    grid-row: 1;
-    grid-column: 2;
+    position: absolute;
+    width: 100%;
     background:rgb(31, 12, 12);
+    margin-top: 5rem;
+    margin-left: 9rem;
     padding: 1rem;
     border: 1px solid rgb(59, 0, 0);
+}
+#giveAwayBanner{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    border: 1px solid red;
+
 }
