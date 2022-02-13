@@ -19,6 +19,7 @@ html {
   .main-footer {
     grid-area: footer;
   }
+/*
 .grid-container {
     display: grid;
     grid-template-columns: 300px auto 300px;
@@ -31,6 +32,17 @@ html {
     column-gap: 1.3rem;
     row-gap: 1.3rem;
     border: white;
+}*/
+.wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer"
 }
 #logoPH{
     position: fixed;
