@@ -9,6 +9,9 @@ html {
   }
   .content {
     grid-area: content;
+    background: rgb(31, 12, 12);
+    padding: 1.6rem;
+    height: 100%;
   }
   .main-nav {
     grid-area: nav;
@@ -29,21 +32,11 @@ html {
   }
   .main-footer {
     grid-area: footer;
+    background:rgb(31, 12, 12);
+    padding: 1.6rem;
+    border-top: 1px solid rgb(63, 20, 20);
+    border-bottom: 1px solid rgb(63, 20, 20);
   }
-/*
-.grid-container {
-    display: grid;
-    grid-template-columns: 300px auto 300px;
-    grid-template-rows: 300px auto 300px;
-    align-content: start;
-    justify-content: center;
-    align-items: stretch;
-    grid-auto-columns: max-content;
-    grid-auto-rows: max-content;
-    column-gap: 1.3rem;
-    row-gap: 1.3rem;
-    border: white;
-}*/
 .wrapper {
     display: grid;
     gap: 20px;
