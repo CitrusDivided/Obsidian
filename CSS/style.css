@@ -12,6 +12,7 @@ html {
     background: rgb(31, 12, 12);
     padding: 1.6rem;
     height: 100%;
+    border: 1px solid rgb(68, 27, 27);
   }
   .main-nav {
     grid-area: nav;
@@ -40,8 +41,8 @@ html {
     grid-area: footer;
     background:rgb(31, 12, 12);
     padding: 1.6rem;
-    border-top: 1px solid rgb(63, 20, 20);
-    border-bottom: 1px solid rgb(63, 20, 20);
+    border-top: 1px solid rgb(68, 27, 27);
+    border-bottom: 1px solid rgb(68, 27, 27);
   }
 .wrapper {
     display: grid;
