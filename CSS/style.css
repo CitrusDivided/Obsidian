@@ -1,6 +1,12 @@
 html {
     height: 100%;
 }
+#articleEntry{
+    line-height: 2;
+    background: rgb(56, 21, 21);
+    padding: 2rem;
+    border-radius: 0.2rem;
+}
 #splashIntro{
     height: 25%;
     background: rgb(31, 12, 12);
