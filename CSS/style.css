@@ -80,17 +80,19 @@ ul{
     "header"
     "nav"
     "content"
+    "content2"
     "sidebar"
     "ad"
     "footer"
 }
 @media (min-width: 500px) {
     .wrapper {
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 4fr;
         grid-template-areas:
         "header header"
         "nav    nav"
         "sidebar    content"
+        "sidebar content2"
         "ad     footer";
     }
     nav ul{
@@ -105,8 +107,10 @@ ul{
         grid-template-columns: 1fr 4fr 1fr;
         grid-template-areas:
         "header header  header"
-        "nav    content sidebar"
-        "nav    content ad"
+        "nav    content  sidebar"
+        "nav    content  ad"
+        "nav    content2 ad"
+        "nav    content2 ad"
         "footer footer footer"
     }
     nav ul {
