@@ -29,6 +29,10 @@ ul{
     border-radius: 0.2rem;
     box-shadow: 0px 1px 3px 0px black;
 }
+#imageDec{
+    transform: scale(30%);
+    align-items: center;
+}
 #splashIntro{
     text-align: center;
 }
